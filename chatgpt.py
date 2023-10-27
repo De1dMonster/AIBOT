@@ -68,7 +68,7 @@ MAIN = [
     ],
     [
         InlineKeyboardButton(text="💥 𝚁𝙴𝙿𝙾 💥", url=f"https://telegra.ph/file/90d63ea99b2b2cb012b59.mp4"),
-        InlineKeyboardButton(text="😊 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 😊", url=f"https://t.me/SAIFHELPGC"),
+        InlineKeyboardButton(text="😊 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 😊", url=f"https://t.me/DEAD_GROUPCHAT"),
     ],
 ]
 X = [
@@ -112,7 +112,7 @@ async def start(client, m: Message):
         accha = await m.reply_text(
                         text = f"{g}")
         await asyncio.sleep(0.2)
-        await accha.edit("🥵𝐒𝐀𝐈𝐅 𝐀𝐈 𝐁𝐎𝐓 𝐒𝐓𝐀𝐑𝐓𝐈𝐍𝐆🥵..")
+        await accha.edit("❤🌹 𝐒𝐀𝐈𝐅 𝐀𝐈 𝐁𝐎𝐓 𝐒𝐓𝐀𝐑𝐓𝐈𝐍𝐆 💘🌹..")
         await asyncio.sleep(0.2)
         await accha.delete()
         umm = await m.reply_sticker(
