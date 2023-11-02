@@ -44,7 +44,7 @@ SOURCE_TEXT = f"""
 ๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]
 ➻ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
 ☆ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜᴀᴛɪᴏɴ ᴇᴀsʟɪʏ
-᯽ ᴍᴀᴅᴇ ʙʏ :- @SAIF_DICTATOR ⚡✨
+᯽ ᴍᴀᴅᴇ ʙʏ :- @SAIF_DICTATOR 
 ──────────────────
 ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ
 """
@@ -54,8 +54,8 @@ x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 MAIN = [
     [
-        InlineKeyboardButton(text="💘 𝙾𝚆𝙽𝙴𝚁 💘", url=f"https://t.me/SAIF_DICTATOR"),
-        InlineKeyboardButton(text="🏵 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🌼 ", url=f"https://t.me/T10ThiesKingsSHR"),
+        InlineKeyboardButton(text=" 𝙾𝚆𝙽𝙴𝚁 ", url=f"https://t.me/SAIF_DICTATOR"),
+        InlineKeyboardButton(text=" 𝚂𝚄𝙿𝙿𝙾𝚁𝚃  ", url=f"https://t.me/T10ThiesKingsSHR"),
     ],
     [
         InlineKeyboardButton(
@@ -67,15 +67,15 @@ MAIN = [
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴍᴅs ", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="💥 𝚁𝙴𝙿𝙾 💥", url=f"https://telegra.ph/file/90d63ea99b2b2cb012b59.mp4"),
-        InlineKeyboardButton(text="😊 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 😊", url=f"https://t.me/DEAD_GROUPCHAT"),
+        InlineKeyboardButton(text=" 𝚂𝙰𝙳", url=f"https://t.me/SAIFEELINGS/3"),
+        InlineKeyboardButton(text=" 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ", url=f"https://t.me/DEAD_GROUPCHAT"),
     ],
 ]
 X = [
     [
-        InlineKeyboardButton(text="💘 𝙾𝚆𝙽𝙴𝚁 💘", url=f"https://t.me/SAIF_DICTATOR"),
+        InlineKeyboardButton(text=" 𝙾𝚆𝙽𝙴𝚁 ", url=f"https://t.me/SAIF_DICTATOR"),
               
-        InlineKeyboardButton(text="💖 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 💖", url=f"https://t.me/T10ThiesKingsSHR"),
+        InlineKeyboardButton(text=" 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ", url=f"https://t.me/T10ThiesKingsSHR"),
     ]
     ]
     
@@ -92,8 +92,8 @@ PNG_BTN = [
          ),
      ],
 ]
-SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', url=f"https://graph.org/file/1cec00803e0497f6794f3.mp4")]])
-HELP_READ = "**➻ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ᴇxᴀᴍᴘʟᴇ: `/chatgpt write a simple flask app in python.`\n\n**➻ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a cute girl photo`  \n\n➻ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➻ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
+SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('𝙼𝙾𝙾𝙳', url=f"https://t.me/SAIFEELINGS/3")]])
+HELP_READ = "**➻ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ᴇxᴀᴍᴘʟᴇ: `/chatgpt Space then write your qusetion.`\n\n**➻ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a book photo`  \n\n➻ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➻ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
 HELP_BACK = [
      [
            InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ", url=f"https://t.me/T10ThiesKingsSHR"),
@@ -178,7 +178,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "Example:**\n\n`/chatgpt And Your Qustion`")
+            "Example:**\n\n`𝙿𝙷𝙻𝙴 /chatgpt 𝙻𝙸𝙺𝙷𝙾 𝚄𝚂𝙺𝙴 𝙱𝙰𝙰𝙳 𝚂𝙿𝙰𝙲𝙴 𝚃𝙷𝙴𝙽 𝙰𝙿𝙽𝙰 𝚀𝚄𝙴𝚂𝚃𝙸𝙾𝙽 𝙿𝚄𝙲𝙷𝙷𝙾`")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
