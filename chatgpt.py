@@ -54,7 +54,7 @@ x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 MAIN = [
     [
-        InlineKeyboardButton(text="♨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♨", url=f"https://t.me/SAIF_DICTATOR"),
+        InlineKeyboardButton(text="🦋 ᴍᴜsɪᴄ 🦋", url=f"https://t.me/JIY1MUSICBOT"),
         InlineKeyboardButton(text="💨 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⛲ ", url=f"https://t.me/T10ThiesKingsSHR"),
     ],
     [
@@ -67,7 +67,7 @@ MAIN = [
         InlineKeyboardButton(text="💫 ʜᴇʟᴘ & ᴄᴍᴅs 💫", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="🕸 𝚁𝙴𝙿𝙾 🕸", url=f"https://telegra.ph/file/9733d82450e02472201a4.mp4"),
+        InlineKeyboardButton(text="🍂ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ 🍂", url=f"https://t.me/DICMANAGEBOT"),
         InlineKeyboardButton(text="🗽 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🗽 ", url=f"https://t.me/DEAD_GROUPCHAT"),
     ],
 ]
