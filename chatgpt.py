@@ -54,8 +54,8 @@ x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 MAIN = [
     [
-        InlineKeyboardButton(text=" ♡ 𝙾𝚆𝙽𝙴𝚁 ♡ ", url=f"https://t.me/SAIF_DICTATOR"),
-        InlineKeyboardButton(text="♡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ♡ ", url=f"https://t.me/T10ThiesKingsSHR"),
+        InlineKeyboardButton(text="♨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♨", url=f"https://t.me/SAIF_DICTATOR"),
+        InlineKeyboardButton(text="💨 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⛲ ", url=f"https://t.me/T10ThiesKingsSHR"),
     ],
     [
         InlineKeyboardButton(
@@ -64,18 +64,18 @@ MAIN = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴍᴅs ", callback_data="HELP"),
+        InlineKeyboardButton(text="💫 ʜᴇʟᴘ & ᴄᴍᴅs 💫", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="♕︎ 𝚁𝙴𝙿𝙾 ♔︎", url=f"https://telegra.ph/file/9733d82450e02472201a4.mp4"),
-        InlineKeyboardButton(text="★ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ★ ", url=f"https://t.me/DEAD_GROUPCHAT"),
+        InlineKeyboardButton(text="🕸 𝚁𝙴𝙿𝙾 🕸", url=f"https://telegra.ph/file/9733d82450e02472201a4.mp4"),
+        InlineKeyboardButton(text="🗽 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🗽 ", url=f"https://t.me/DEAD_GROUPCHAT"),
     ],
 ]
 X = [
     [
-        InlineKeyboardButton(text="᯾ 𝙾𝚆𝙽𝙴𝚁 ᯾", url=f"https://t.me/SAIF_DICTATOR"),
+        InlineKeyboardButton(text=" ♨️ 𝙾𝚆𝙽𝙴𝚁 ♨️", url=f"https://t.me/SAIF_DICTATOR"),
               
-        InlineKeyboardButton(text="✯ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ✯", url=f"https://t.me/T10ThiesKingsSHR"),
+        InlineKeyboardButton(text="🦋 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🦋", url=f"https://t.me/T10ThiesKingsSHR"),
     ]
     ]
     
@@ -221,7 +221,7 @@ async def chat(bot, message):
             "**Example:**\n\n`/generate image name what do you want`")
         else:
             a = message.text.split(' ', 1)[1]
-            response= openai.Image.create(prompt=a ,n=1,size="1024x1024")
+            response= openai.Image.create(prompt=a ,n=1,size="500x700")
             image_url = response['data'][0]['url']
             end_time = time.time()
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
