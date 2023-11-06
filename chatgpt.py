@@ -68,7 +68,7 @@ MAIN = [
     ],
     [
         InlineKeyboardButton(text="🍂ᴄᴏɴᴛʀᴏʟʟᴇʀ🍂", url=f"https://t.me/DICMANAGEBOT"),
-        InlineKeyboardButton(text="🗽 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🗽 ", url=f"https://t.me/DEAD_GROUPCHAT"),
+        InlineKeyboardButton(text="♨️ ᴏᴡɴᴇʀ ♨️ ", url=f"https://t.me/SAIF_DICTATOR"),
     ],
 ]
 X = [
