@@ -67,7 +67,7 @@ MAIN = [
         InlineKeyboardButton(text="💫 ʜᴇʟᴘ & ᴄᴍᴅs 💫", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="🍂ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ 🍂", url=f"https://t.me/DICMANAGEBOT"),
+        InlineKeyboardButton(text="🍂ᴄᴏɴᴛʀᴏʟʟᴇʀ🍂", url=f"https://t.me/DICMANAGEBOT"),
         InlineKeyboardButton(text="🗽 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🗽 ", url=f"https://t.me/DEAD_GROUPCHAT"),
     ],
 ]
