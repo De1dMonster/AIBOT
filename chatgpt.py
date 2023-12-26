@@ -28,7 +28,7 @@ DAXX = Client(
 START = f"""
 ๏ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}
 ➻ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
-𓂸 ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜsᴛɪᴏɴ ᴇᴀsɪʟʏ
+★ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜsᴛɪᴏɴ ᴇᴀsɪʟʏ
 
 ──────────────────
 ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ʙᴏᴛ ᴀɴᴅ ᴄᴀɴ 
@@ -54,20 +54,20 @@ x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 MAIN = [
     [
-        InlineKeyboardButton(text="🦋 ᴍᴜsɪᴄ 🦋", url=f"https://t.me/JIY1MUSICBOT"),
-        InlineKeyboardButton(text="💨 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⛲ ", url=f"https://t.me/T10ThiesKingsSHR"),
+        InlineKeyboardButton(text="🦋 ᴍᴜsɪᴄ 🦋", url=f"https://t.me/INNOCENTMUSICBOT"),
+        InlineKeyboardButton(text=" 𝚂𝚄𝙿𝙿𝙾𝚁𝚃  ", url=f"https://t.me/T10ThiesKingsSHR"),
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+            text="🍁 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🍀",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="💫 ʜᴇʟᴘ & ᴄᴍᴅs 💫", callback_data="HELP"),
+        InlineKeyboardButton(text=" ʜᴇʟᴘ & ᴄᴍᴅs ", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="🍂ᴄᴏɴᴛʀᴏʟʟᴇʀ🍂", url=f"https://t.me/DICMANAGEBOT"),
+        InlineKeyboardButton(text="ᴄᴏɴᴛʀᴏʟʟᴇʀ", url=f"https://t.me/GROUP_MANAGER_PBOT"),
         InlineKeyboardButton(text="♨️ ᴏᴡɴᴇʀ ♨️ ", url=f"https://t.me/SAIF_DICTATOR"),
     ],
 ]
@@ -75,7 +75,7 @@ X = [
     [
         InlineKeyboardButton(text=" ♨️ 𝙾𝚆𝙽𝙴𝚁 ♨️", url=f"https://t.me/SAIF_DICTATOR"),
               
-        InlineKeyboardButton(text="🦋 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🦋", url=f"https://t.me/T10ThiesKingsSHR"),
+        InlineKeyboardButton(text=" 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ", url=f"https://t.me/T10ThiesKingsSHR"),
     ]
     ]
     
@@ -87,13 +87,13 @@ PNG_BTN = [
          ),
      ],
      [
-         InlineKeyboardButton(text="✨ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ✨", 
+         InlineKeyboardButton(text=" 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ", 
                               url=f"https://t.me/T10ThiesKingsSHR",
          ),
      ],
 ]
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ʀᴇᴘᴏ' , url=f"https://telegra.ph/file/9733d82450e02472201a4.mp4")]])
-HELP_READ = "**➻ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ᴇxᴀᴍᴘʟᴇ: `/chatgpt Space then write your question.`\n\n**➻ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a book photo`  \n\n➻ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➻ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
+HELP_READ = "**➻ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ʜᴇʟᴘ: `/chatgpt Space then write your question.`\n\n**➻ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a book photo`  \n\n➻ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➻ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
 HELP_BACK = [
      [
            InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ", url=f"https://t.me/T10ThiesKingsSHR"),
@@ -170,7 +170,7 @@ async def ping(client, message: Message):
 
 #  main   
 openai.api_key = OPENAI_KEY
-@DAXX.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
+@DAXX.on_message(filters.command(["chatgpt","ai","ask","a"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(bot, message):
     
     try:
@@ -178,7 +178,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "Example:**\n\n`𝙿𝙷𝙻𝙴 /chatgpt 𝙻𝙸𝙺𝙷𝙾 𝚄𝚂𝙺𝙴 𝙱𝙰𝙰𝙳 𝚂𝙿𝙰𝙲𝙴 𝚃𝙷𝙴𝙽 𝙰𝙿𝙽𝙰 𝚀𝚄𝙴𝚂𝚃𝙸𝙾𝙽 𝙿𝚄𝙲𝙷𝙷𝙾`")
+            "HELP:**\n\n`𝙿𝙷𝙻𝙴 /chatgpt 𝙻𝙸𝙺𝙷𝙾 𝚄𝚂𝙺𝙴 𝙱𝙰𝙰𝙳 𝚂𝙿𝙰𝙲𝙴 𝚃𝙷𝙴𝙽 𝙰𝙿𝙽𝙰 𝚀𝚄𝙴𝚂𝚃𝙸𝙾𝙽 𝙿𝚄𝙲𝙷𝙷𝙾`")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
@@ -221,7 +221,7 @@ async def chat(bot, message):
             "**Example:**\n\n`/generate image name what do you want`")
         else:
             a = message.text.split(' ', 1)[1]
-            response= openai.Image.create(prompt=a ,n=1,size="500x700")
+            response= openai.Image.create(prompt=a ,n=1,size="1792x1024")
             image_url = response['data'][0]['url']
             end_time = time.time()
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
