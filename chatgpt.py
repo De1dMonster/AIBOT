@@ -27,7 +27,7 @@ DAXX = Client(
 )
 START = f"""
 ๏ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME} ʙᴏᴛ
-"[➻](https://telegra.ph/file/ae112616c824ba6478873.jpg)ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
+"[➻](https://telegra.ph/file/ae112616c824ba6478873.jpg) ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
 ★ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜsᴛɪᴏɴ ᴇᴀsɪʟʏ
 
 ──────────────────
@@ -93,7 +93,7 @@ PNG_BTN = [
      ],
 ]
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ʀᴇᴘᴏ' , url=f"https://telegra.ph/file/9733d82450e02472201a4.mp4")]])
-HELP_READ = "**➻ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ʜᴇʟᴘ: `/chatgpt Space then write your question.`\n\n**[➻](https://graph.org/file/8bdc00f0e78bee5282a06.jpg)"ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a book photo`  \n\n➻ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➻ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
+HELP_READ = "**➻ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ʜᴇʟᴘ: `/chatgpt Space then write your question.`\n\n**[➻](https://graph.org/file/8bdc00f0e78bee5282a06.jpg)" ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a book photo`  \n\n➻ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➻ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
 HELP_BACK = [
      [
            InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ", url=f"https://t.me/T10ThiesKingsSHR"),
