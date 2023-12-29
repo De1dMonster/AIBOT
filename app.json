@@ -42,7 +42,7 @@
       "required": false
     },
     "STKR": {
-      "description": "𝗦𝗧𝗜𝗞𝗘𝗥 𝗀𝗂𝖿 𝖻𝗇𝖺𝗅𝗈 ", "required": flase
+      "description": "𝗦𝗧𝗜𝗞𝗘𝗥 𝗀𝗂𝖿 𝖻𝗇𝖺𝗅𝗈 ", "required": false
     },
     "START_IMG": {
       "description": "𝗦𝗧𝗔𝗥𝗧 𝗜𝗠𝗚 𝗗𝗔𝗟𝗢 ",
