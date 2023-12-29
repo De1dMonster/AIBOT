@@ -23,7 +23,7 @@
     },
     "OWNER_USERNAME": {
       "description": "𝗧𝗘𝗥𝗔 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 𝗪𝗜𝗧𝗛𝗢𝗨𝗧 @",
-      "required": true
+      "required": true,
       "value": "SAIF_DICTATOR"
     },
     "OPENAI_KEY": {
