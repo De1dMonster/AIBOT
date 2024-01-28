@@ -248,7 +248,7 @@ async def chat(bot, message):
             "**Example:**\n\n`/generate A cute baby`")
         else:
             a = message.text.split(' ', 1)[1]
-            response= openai.Image.create(prompt=a ,n=1,size="1792x1024")
+            response= openai.Image.create(prompt=a ,n=1,size="1024x1024")
             image_url = response['data'][0]['url']
             end_time = time.time()
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
