@@ -124,7 +124,7 @@ async def start(client, m: Message):
         )
         await asyncio.sleep(0.3)
         await umm.delete()
-        await m.reply_photo(f"{S}",
+        await m.reply_photo(photo=(SAIF),
             caption=START,
             reply_markup=InlineKeyboardMarkup(MAIN),
         )
@@ -145,11 +145,11 @@ async def cb_handler(Client, query: CallbackQuery):
     
 @DAXX.on_message(filters.command(["help", f"help@{BOT_USERNAME}"], prefixes=["","+", ".", "/", "-", "?", "$"]))
 async def restart(client, message):
-    hmm = await message.reply_photo(SAIF,
+    hmm = await message.reply_photo(photo=(SAIF),
                         caption=HELP_READ,
                         reply_markup= InlineKeyboardMarkup(HELP_BACK),
        )
-@DAXX.on_message(filters.command(['source', 'repo'], prefixes=["","+", ".", "/", "-", "?", "$"]))
+@DAXX.on_message(filters.command(['source', 'repo', 'owner'], prefixes=["","+", ".", "/", "-", "?", "$"]))
 async def source(bot, m):
     
     await m.reply_photo(START_IMG, caption=SOURCE_TEXT, reply_markup=SOURCE_BUTTONS)
