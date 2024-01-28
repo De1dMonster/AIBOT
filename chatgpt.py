@@ -109,7 +109,7 @@ SAIF = [
 "https://te.legra.ph/file/9d243e271888087329aac.jpg",
 "https://te.legra.ph/file/b5eb69c60abfa61e13617.jpg",
 ]
-S=rendom.choice(SAIF)
+S=choice(SAIF)
   
 #         start
 @DAXX.on_message(filters.command(["start",f"start@{BOT_USERNAME}"]))
