@@ -129,7 +129,7 @@ async def start(client, m: Message):
         await asyncio.sleep(0.3)
         await umm.delete()
         await m.reply_photo(
-            random.choice(SAIF)
+            random.choice(SAIF),
             caption=START,
             reply_markup=InlineKeyboardMarkup(MAIN),
         )
