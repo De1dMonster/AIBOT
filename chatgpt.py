@@ -26,24 +26,22 @@ DAXX = Client(
     bot_token = BOT_TOKEN
 )
 START = f"""
-➪ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME} 
-☞ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
-➪ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜsᴛɪᴏɴ ᴇᴀsɪʟʏ
+➤⃝  ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME} 
+➤ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
+➤ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜsᴛɪᴏɴ ᴇᴀsɪʟʏ
 
 ──────────────────
-☞ ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ʙᴏᴛ ᴀɴᴅ ᴄᴀɴ 
+➤ ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ʙᴏᴛ ᴀɴᴅ ᴄᴀɴ 
 ᴀɴsᴡᴇʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀɪᴇs ᴇᴀsʟɪʏ
-
-➪ Rᴇᴀᴅ Tʜᴇ ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ
-
-☞ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help
+➤ Rᴇᴀᴅ Tʜᴇ ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ
+➤ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help
 """
 xa = bytearray.fromhex("68747470733a2f2f6769746875622e636f6d2f444158585445414d2f4441585843484154475054").decode()
 SOURCE = xa
 SOURCE_TEXT = f"""
-➪ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}] ʙᴏᴛ
-☞ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
-➪ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜᴀᴛɪᴏɴ ᴇᴀsʟɪʏ
+❥ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}] ʙᴏᴛ
+❥ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
+❥ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜᴀᴛɪᴏɴ ᴇᴀsʟɪʏ
 
 ──────────────────
 ☟ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ☟
@@ -54,17 +52,17 @@ x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 MAIN = [
     [
-        InlineKeyboardButton(text="🦋 ᴍᴜsɪᴄ 🦋", url=f"https://t.me/INNOCENTMUSICBOT"),
-        InlineKeyboardButton(text=" 𝚂𝚄𝙿𝙿𝙾𝚁𝚃  ", url=f"https://t.me/T10ThiesKingsSHR"),
+        InlineKeyboardButton(text="🦋 𝐌ᴜsɪᴄ ", url=f"https://t.me/HINATA_N_BOT"),
+        InlineKeyboardButton(text=" 𝐒𝚄𝙿𝙿𝙾𝚁𝚃  🥀", url=f"https://t.me/T10ThiesKingsSHR"),
     ],
     [
         InlineKeyboardButton(
-            text="🍁 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🍀",
+            text="❣️ 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ ❣️",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text=" ʜᴇʟᴘ & ᴄᴍᴅs ", callback_data="HELP"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴍᴅs ", callback_data="HELP"),
     ],
     [
         InlineKeyboardButton(text="ᴄᴏɴᴛʀᴏʟʟᴇʀ", url=f"https://t.me/GROUP_MANAGER_PBOT"),
