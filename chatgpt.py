@@ -108,10 +108,8 @@ SAIF = [
 "https://graph.org/file/698c370a368dad34e5715.jpg",
 "https://te.legra.ph/file/9d243e271888087329aac.jpg",
 "https://te.legra.ph/file/b5eb69c60abfa61e13617.jpg",
-
-
 ]
-    
+S=choice(SAIF)
   
 #         start
 @DAXX.on_message(filters.command(["start",f"start@{BOT_USERNAME}"]))
@@ -128,7 +126,7 @@ async def start(client, m: Message):
         )
         await asyncio.sleep(0.3)
         await umm.delete()
-        await m.reply_photo(SAIF,
+        await m.reply_photo(f"{S}",
             caption=START,
             reply_markup=InlineKeyboardMarkup(MAIN),
         )
