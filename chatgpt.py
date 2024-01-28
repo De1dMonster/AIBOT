@@ -90,7 +90,7 @@ PNG_BTN = [
          ),
      ],
 ]
-SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ʀᴇᴘᴏ' , url=f"https://telegra.ph/file/9733d82450e02472201a4.mp4")]])
+SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('𝐑ᴇᴘᴏ' , url=f"github.com/Saifdead")]])
 HELP_READ = "**➤ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ʜᴇʟᴘ: `/chatgpt 𝙷𝚘𝚠 𝚊𝚛𝚎 𝚢𝚘𝚞`\n\n**➤ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate 𝚊 𝚋𝚘𝚘𝚔 𝚙𝚑𝚘𝚝𝚘`  \n\➤ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➤ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
 HELP_BACK = [
      [
@@ -103,11 +103,36 @@ HELP_BACK = [
 ]
 
 SAIF = [
-"https://graph.org/file/698c370a368dad34e5715.jpg",
-"https://te.legra.ph/file/9d243e271888087329aac.jpg",
-"https://te.legra.ph/file/b5eb69c60abfa61e13617.jpg",
+"https://graph.org/file/602cbab7eab04a1f1bd62.jpg",
+"https://graph.org/file/23ddbe331005ee7f2b64a.jpg",
+"https://graph.org/file/1cecbd34ffaea98052fb3.jpg",
+"https://graph.org/file/cc1405d53351baa614683.jpg",
 ]
 S=choice(SAIF)
+
+SHELP = [
+"https://graph.org/file/cc1405d53351baa614683.jpg",
+"https://graph.org/file/1cecbd34ffaea98052fb3.jpg",
+"https://graph.org/file/602cbab7eab04a1f1bd62.jpg",
+"https://graph.org/file/23ddbe331005ee7f2b64a.jpg",
+]
+H=choice(SHELP)
+
+SPING = [
+"https://graph.org/file/23ddbe331005ee7f2b64a.jpg",
+"https://graph.org/file/602cbab7eab04a1f1bd62.jpg",
+"https://graph.org/file/cc1405d53351baa614683.jpg",
+"https://graph.org/file/1cecbd34ffaea98052fb3.jpg",
+]
+P=choice(SPING)
+
+RSAIF = [
+"https://graph.org/file/1cecbd34ffaea98052fb3.jpg",
+"https://graph.org/file/23ddbe331005ee7f2b64a.jpg",
+"https://graph.org/file/cc1405d53351baa614683.jpg",
+"https://graph.org/file/602cbab7eab04a1f1bd62.jpg",
+]
+R=choice(RSAIF)
   
 #         start
 @DAXX.on_message(filters.command(["start",f"start@{BOT_USERNAME}"]))
@@ -116,7 +141,7 @@ async def start(client, m: Message):
         accha = await m.reply_text(
                         text = f"{g}")
         await asyncio.sleep(0.2)
-        await accha.edit("sᴛᴀʀᴛɪɴɢ ᴀɪ ʙᴏᴛ 💘🌹..")
+        await accha.edit("sᴛᴀʀᴛɪɴɢ ᴀɪ ʙᴏᴛ.")
         await asyncio.sleep(0.2)
         await accha.delete()
         umm = await m.reply_sticker(
@@ -124,7 +149,7 @@ async def start(client, m: Message):
         )
         await asyncio.sleep(0.3)
         await umm.delete()
-        await m.reply_photo(photo=(SAIF),
+        await m.reply_photo(f"{S}",
             caption=START,
             reply_markup=InlineKeyboardMarkup(MAIN),
         )
@@ -145,14 +170,14 @@ async def cb_handler(Client, query: CallbackQuery):
     
 @DAXX.on_message(filters.command(["help", f"help@{BOT_USERNAME}"], prefixes=["","+", ".", "/", "-", "?", "$"]))
 async def restart(client, message):
-    hmm = await message.reply_photo(photo=(SAIF),
+    hmm = await message.reply_photo(f"{H}",
                         caption=HELP_READ,
                         reply_markup= InlineKeyboardMarkup(HELP_BACK),
        )
 @DAXX.on_message(filters.command(['source', 'repo', 'owner'], prefixes=["","+", ".", "/", "-", "?", "$"]))
 async def source(bot, m):
     
-    await m.reply_photo(START_IMG, caption=SOURCE_TEXT, reply_markup=SOURCE_BUTTONS)
+    await m.reply_photo(f"{R}", caption=SOURCE_TEXT, reply_markup=SOURCE_BUTTONS)
 #  alive
 @DAXX.on_message(filters.command(["ping","alive"], prefixes=["+", "/", "-", "?", "$", "&","."]))
 async def ping(client, message: Message):
@@ -165,8 +190,7 @@ async def ping(client, message: Message):
         await txxt.delete()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await message.reply_photo(
-                             photo=START_IMG,
+        await message.reply_photo(f"{P}",
                              caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ sᴘᴇᴇᴅ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [sᴀɪғ](https://t.me/SAIF_DICTATOR)||",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
