@@ -62,43 +62,43 @@ MAIN = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴍᴅs ", callback_data="HELP"),
+        InlineKeyboardButton(text=" 🎟 𝐇ᴇʟᴘ & 𝐂ᴍᴅs ", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="ᴄᴏɴᴛʀᴏʟʟᴇʀ", url=f"https://t.me/GROUP_MANAGER_PBOT"),
-        InlineKeyboardButton(text="♨️ ᴏᴡɴᴇʀ ♨️ ", url=f"https://t.me/SAIF_DICTATOR"),
+        InlineKeyboardButton(text="𝐂ᴏɴᴛʀᴏʟʟᴇʀ 🍃", url=f"https://t.me/NARUTO_X_ROBOT"),
+        InlineKeyboardButton(text=" 𝐎ᴡɴᴇʀ ♨️ ", url=f"https://t.me/SAIF_DICTATOR"),
     ],
 ]
 X = [
     [
-        InlineKeyboardButton(text=" ♨️ 𝙾𝚆𝙽𝙴𝚁 ♨️", url=f"https://t.me/SAIF_DICTATOR"),
+        InlineKeyboardButton(text=" ♨️ 𝐎𝚆𝙽𝙴𝚁 ", url=f"https://t.me/SAIF_DICTATOR"),
               
-        InlineKeyboardButton(text=" 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ", url=f"https://t.me/T10ThiesKingsSHR"),
+        InlineKeyboardButton(text=" 𝐒𝚄𝙿𝙿𝙾𝚁𝚃 🍂 ", url=f"https://t.me/T10ThiesKingsSHR"),
     ]
     ]
     
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+             text="🌻 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ 🌻",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text=" 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ", 
+         InlineKeyboardButton(text="🎀 𝐒𝚄𝙿𝙿𝙾𝚁𝚃 ", 
                               url=f"https://t.me/T10ThiesKingsSHR",
          ),
      ],
 ]
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ʀᴇᴘᴏ' , url=f"https://telegra.ph/file/9733d82450e02472201a4.mp4")]])
-HELP_READ = "**➪ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ʜᴇʟᴘ: `/chatgpt Space then write your question.`\n\n**☞ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a book photo`  \n\n☞ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➪ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
+HELP_READ = "**➤ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ʜᴇʟᴘ: `/chatgpt 𝙷𝚘𝚠 𝚊𝚛𝚎 𝚢𝚘𝚞`\n\n**➤ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate 𝚊 𝚋𝚘𝚘𝚔 𝚙𝚑𝚘𝚝𝚘`  \n\➤ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➤ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
 HELP_BACK = [
      [
            InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ", url=f"https://t.me/SAIFHELPGC"),
            
      ],
     [
-           InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK"),
+           InlineKeyboardButton(text="𝐁ᴀᴄᴋ ", callback_data="HELP_BACK"),
     ],
 ]
 
@@ -181,7 +181,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "HELP:**\n\n`𝙿𝙷𝙻𝙴 /chatgpt 𝙻𝙸𝙺𝙷𝙾 𝚄𝚂𝙺𝙴 𝙱𝙰𝙰𝙳 𝚂𝙿𝙰𝙲𝙴 𝚃𝙷𝙴𝙽 𝙰𝙿𝙽𝙰 𝚀𝚄𝙴𝚂𝚃𝙸𝙾𝙽 𝙿𝚄𝙲𝙷𝙷𝙾`")
+            "HELP:**\n\n`/chatgpt How are you ?`")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
@@ -221,7 +221,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.UPLOAD_PHOTO)
         if len(message.command) < 2:
             await message.reply_text(
-            "**Example:**\n\n`/generate image name what do you want`")
+            "**Example:**\n\n`/generate A cute baby`")
         else:
             a = message.text.split(' ', 1)[1]
             response= openai.Image.create(prompt=a ,n=1,size="1792x1024")
