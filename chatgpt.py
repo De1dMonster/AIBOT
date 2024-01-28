@@ -96,7 +96,7 @@ SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ʀᴇᴘᴏ' , url
 HELP_READ = "**➪ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ʜᴇʟᴘ: `/chatgpt Space then write your question.`\n\n**☞ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a book photo`  \n\n☞ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➪ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
 HELP_BACK = [
      [
-           InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ", url=f"https://t.me/T10ThiesKingsSHR"),
+           InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ", url=f"https://t.me/SAIFHELPGC"),
            
      ],
     [
@@ -104,6 +104,14 @@ HELP_BACK = [
     ],
 ]
 
+SAIF = [
+"https://graph.org/file/698c370a368dad34e5715.jpg",
+"https://te.legra.ph/file/9d243e271888087329aac.jpg",
+"https://te.legra.ph/file/b5eb69c60abfa61e13617.jpg",
+
+
+]
+    
   
 #         start
 @DAXX.on_message(filters.command(["start",f"start@{BOT_USERNAME}"]))
@@ -121,7 +129,7 @@ async def start(client, m: Message):
         await asyncio.sleep(0.3)
         await umm.delete()
         await m.reply_photo(
-            photo = START_IMG,
+            random.choice(SAIF)
             caption=START,
             reply_markup=InlineKeyboardMarkup(MAIN),
         )
