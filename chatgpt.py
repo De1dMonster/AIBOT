@@ -108,17 +108,17 @@ SAIF = [
 S=choice(SAIF)
 
 SHELP = [
-"https://graph.org/file/cc1405d53351baa614683.jpg",
+"https://graph.org/file/1cecbd34ffaea98052fb3.jpg",
 ]
 H=choice(SHELP)
 
 SPING = [
-"https://graph.org/file/23ddbe331005ee7f2b64a.jpg",
+"https://graph.org/file/a8e813ffdbfb1e9ac665f.jpg",
 ]
 P=choice(SPING)
 
 RSAIF = [
-"https://graph.org/file/1cecbd34ffaea98052fb3.jpg",
+"https://graph.org/file/23ddbe331005ee7f2b64a.jpg",
 ]
 R=choice(RSAIF)
   
