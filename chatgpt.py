@@ -26,7 +26,7 @@ DAXX = Client(
     bot_token = BOT_TOKEN
 )
 START = f"""
-➤⃝  ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME} 
+➤ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME} 
 ➤ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
 ➤ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜsᴛɪᴏɴ ᴇᴀsɪʟʏ
 
@@ -48,7 +48,7 @@ SOURCE_TEXT = f"""
 """
 
 
-x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
+x=["❤️"]
 g=choice(x)
 MAIN = [
     [
@@ -57,7 +57,7 @@ MAIN = [
     ],
     [
         InlineKeyboardButton(
-            text="❣️ 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ ❣️",
+            text="•─╼⃝𖠁 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ 𖠁⃝╾─•",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
@@ -91,7 +91,7 @@ PNG_BTN = [
      ],
 ]
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('𝐑ᴇᴘᴏ' , url=f"github.com/Saifdead")]])
-HELP_READ = "**➤ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ʜᴇʟᴘ: `/chatgpt 𝙷𝚘𝚠 𝚊𝚛𝚎 𝚢𝚘𝚞`\n\n**➤ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate 𝚊 𝚋𝚘𝚘𝚔 𝚙𝚑𝚘𝚝𝚘`  \n\➤ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➤ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
+HELP_READ = "**➤ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ʜᴇʟᴘ: `/chatgpt How are you ?`\n\n**➤ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a cute baby `  \n\➤ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➤ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @SAIF_DICTATOR**"
 HELP_BACK = [
      [
            InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ", url=f"https://t.me/SAIFHELPGC"),
@@ -104,33 +104,21 @@ HELP_BACK = [
 
 SAIF = [
 "https://graph.org/file/602cbab7eab04a1f1bd62.jpg",
-"https://graph.org/file/23ddbe331005ee7f2b64a.jpg",
-"https://graph.org/file/1cecbd34ffaea98052fb3.jpg",
-"https://graph.org/file/cc1405d53351baa614683.jpg",
 ]
 S=choice(SAIF)
 
 SHELP = [
 "https://graph.org/file/cc1405d53351baa614683.jpg",
-"https://graph.org/file/1cecbd34ffaea98052fb3.jpg",
-"https://graph.org/file/602cbab7eab04a1f1bd62.jpg",
-"https://graph.org/file/23ddbe331005ee7f2b64a.jpg",
 ]
 H=choice(SHELP)
 
 SPING = [
 "https://graph.org/file/23ddbe331005ee7f2b64a.jpg",
-"https://graph.org/file/602cbab7eab04a1f1bd62.jpg",
-"https://graph.org/file/cc1405d53351baa614683.jpg",
-"https://graph.org/file/1cecbd34ffaea98052fb3.jpg",
 ]
 P=choice(SPING)
 
 RSAIF = [
 "https://graph.org/file/1cecbd34ffaea98052fb3.jpg",
-"https://graph.org/file/23ddbe331005ee7f2b64a.jpg",
-"https://graph.org/file/cc1405d53351baa614683.jpg",
-"https://graph.org/file/602cbab7eab04a1f1bd62.jpg",
 ]
 R=choice(RSAIF)
   
