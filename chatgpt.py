@@ -39,7 +39,7 @@ START = f"""
 xa = bytearray.fromhex("68747470733a2f2f6769746875622e636f6d2f444158585445414d2f4441585843484154475054").decode()
 SOURCE = xa
 SOURCE_TEXT = f"""
-❥ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}] ʙᴏᴛ
+❥ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME} ʙᴏᴛ
 ❥ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ
 ❥ ɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜᴀᴛɪᴏɴ ᴇᴀsʟɪʏ
 
@@ -71,9 +71,9 @@ MAIN = [
 ]
 X = [
     [
-        InlineKeyboardButton(text=" ♨️ 𝐎𝚆𝙽𝙴𝚁 ", url=f"https://t.me/SAIF_DICTATOR"),
+        InlineKeyboardButton(text=" 🌻 𝐎𝚆𝙽𝙴𝚁 ", url=f"https://t.me/SAIF_DICTATOR"),
               
-        InlineKeyboardButton(text=" 𝐒𝚄𝙿𝙿𝙾𝚁𝚃 🍂 ", url=f"https://t.me/T10ThiesKingsSHR"),
+        InlineKeyboardButton(text=" 🎀 𝐒𝚄𝙿𝙿𝙾𝚁𝚃  ", url=f"https://t.me/T10ThiesKingsSHR"),
     ]
     ]
     
