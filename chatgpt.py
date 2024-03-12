@@ -103,22 +103,22 @@ HELP_BACK = [
 ]
 
 SAIF = [
-"https://graph.org/file/602cbab7eab04a1f1bd62.jpg",
+"https://te.legra.ph/file/464ccd43dd3cd1e96f452.jpg",
 ]
 S=choice(SAIF)
 
 SHELP = [
-"https://graph.org/file/1cecbd34ffaea98052fb3.jpg",
+"https://te.legra.ph/file/a625a9fab36381f09dcfa.jpg",
 ]
 H=choice(SHELP)
 
 SPING = [
-"https://graph.org/file/a8e813ffdbfb1e9ac665f.jpg",
+"https://te.legra.ph/file/77e80dd7b51a410cc9e9f.jpg",
 ]
 P=choice(SPING)
 
 RSAIF = [
-"https://graph.org/file/23ddbe331005ee7f2b64a.jpg",
+"https://te.legra.ph/file/35f8b42234608be1f97f1.jpg",
 ]
 R=choice(RSAIF)
   
